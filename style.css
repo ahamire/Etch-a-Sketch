@@ -1,0 +1,58 @@
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    background-color: sandybrown;
+    padding: 20px;
+    border-radius: 10px;
+}
+.button {
+    background-color: coral;
+    color: white;
+    margin-bottom: 35px;
+    box-shadow:  1px 1px 1px 1px black;
+    border-radius: 4px;
+    width: 140px;
+}
+#colorPicker {
+    background-color: coral;
+    border: none;
+}
+.header {
+    font-family: "courier prime";
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    color: rgb(41, 235, 15);
+}
+#canvas {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.grid {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
